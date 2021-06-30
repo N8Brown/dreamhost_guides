@@ -7,9 +7,11 @@ Dreamhost users have the ability to install custom versions of Python 3 on Dream
 ## Installing Python 3
 
 1. Go to the official [Python Source Releases](https://www.python.org/downloads/source/) page and determine the version of Python you wish to install
+
 ![Python download links](img/python-download-link.jpg)
 
 2. Right click on the "Gzipped source tarball" link for the selected version and copy the link address. *(NOTE: This process my differ slightly from the screenshot depending on your operating and/or browser)* 
+
 ![Python download links](img/python-download-copy-address.jpg) 
 
 3. Login to your Dreamhost server via SSH and run the following commands to make a temporary directory to download the Gzipped source tarball to and install from. 
@@ -105,7 +107,7 @@ As noted in the Dreamhost Knowledge Base article, if neither options return a re
 
 Verify that version numbers entered match the version of Python that was downloaded and installed, and double check formatting. 
 
-## Final Step
+## Final Step (optional)
 Once installation is complete and verified the temporary directory can be removed.
 
 1. Make sure you're in the home directory
