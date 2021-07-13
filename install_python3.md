@@ -1,6 +1,6 @@
-# Dreamhost Guide: Installing Custom Version of Python 3
+# DreamHost Guide: Installing Custom Version of Python 3
 
-Dreamhost users have the ability to install custom versions of Python 3 on Dreamhost's Shared, VPS, and Dedicated servers. This guide expands upon the article found on the [Dreamhost Knowledge Base](https://help.dreamhost.com/hc/en-us/articles/115000702772-Installing-a-custom-version-of-Python-3) for installing a custom version of Python 3 to provide a more complete breakdown of the process.
+DreamHost users have the ability to install custom versions of Python 3 on DreamHost's Shared, VPS, and Dedicated servers. This guide expands upon the article found on the [DreamHost Knowledge Base](https://help.DreamHost.com/hc/en-us/articles/115000702772-Installing-a-custom-version-of-Python-3) for installing a custom version of Python 3 to provide a more complete breakdown of the process.
 
 *NOTE: Python verson 3.9.2 was used for the demonstration of this process. Anywhere you see 3.9.2 should be replace with the version number you are attempting to download and install*
 
@@ -14,7 +14,7 @@ Dreamhost users have the ability to install custom versions of Python 3 on Dream
 
 ![Python download links](img/python-download-copy-address.jpg) 
 
-3. Login to your Dreamhost server via SSH and run the following commands to make a temporary directory to download the Gzipped source tarball to and install from. 
+3. Login to your DreamHost server via SSH and run the following commands to make a temporary directory to download the Gzipped source tarball to and install from. 
 ```sh
 [your_server_name]$ cd ~
 [your_server_name]$ mkdir tmp 
@@ -103,7 +103,7 @@ Which should return something that looks like this:
 Python 3.9.2
 ```
 
-As noted in the Dreamhost Knowledge Base article, if neither options return a result, then there was likely an issue with the configuration of `.bash_profile`. 
+As noted in the DreamHost Knowledge Base article, if neither options return a result, then there was likely an issue with the configuration of `.bash_profile`. 
 
 Verify that version numbers entered match the version of Python that was downloaded and installed, and double check formatting. 
 
