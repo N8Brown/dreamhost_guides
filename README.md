@@ -4,4 +4,4 @@ The web-hosting service DreamHost allows users to host a variety of applications
 
 ## Table of Contents
 - [Installing a Custom Version of Python 3](https://github.com/N8Brown/dreamhost_guides/blob/main/install_python3.md)
-- [Setting Up a Django Project for Git & GitHub]()
+- [Setting Up a Django Project for Git & GitHub](https://github.com/N8Brown/dreamhost_guides/blob/main/setting_up_django_project_for_git_and_github.md)
