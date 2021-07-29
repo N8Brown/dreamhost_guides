@@ -12,7 +12,7 @@ The `passenger_wsgi.py` file is what allows the Passenger server to connect to a
 
 ## Template
 
-The accompanying template is fairly straightforward, however, there are five sections that must be configured in order to work properly. Anywhere in the code that contains text between two angled brackets, `<example>`, represents a section of code that needs to be configured. These sections are indicated by comments at the end of a line of code referencing their corresponding sections in this guide.  
+The accompanying template is fairly straightforward, however, there are five sections that must be configured in order to work properly. Anywhere in the code that contains text between two angled brackets, `<example>`, represents a section of code that needs to be configured. These sections are indicated by comments at the end of a line of code referencing their corresponding sections in this guide. Download the template and open it in a text editor to configure.  
 
 ![passenger_wsgi.py file](/img/passenger_wsgi.jpg)
 
@@ -132,6 +132,10 @@ os.environ['DJANGO_SETTINGS_MODULE'] = "djangoproject.settings"
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
 ```
+
+Save the file and follow the next steps to upload it to the proper location on the DreamHost server.
+
+*(NOTE: Do NOT change the name of the file)*
 
 ## Final Steps
 
